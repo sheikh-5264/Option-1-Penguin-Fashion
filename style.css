@@ -1,0 +1,82 @@
+*{   
+    font-family: 'Raleway', sans-serif;
+     box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo2{
+    height:30px;
+    height:30px;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: rgb(10, 5, 5);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;  
+    height:2px;
+    background-color: rgb(5, 10, 10);
+    transition: .3s; 
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.panda-slide .carousel-item{
+    background-color:#FFFBF0;
+    border-radius: 0.50em;
+}
+.btn{
+    background-color:#A4BC46;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    height: 45px;
+    width: 120px;
+   }
+
+.card-img-top{
+    height: 390px;
+}
+.card-border{
+    border: 0;
+}
+.card-footer{
+    border: 0;
+    
+}
+.top-icone{
+    display: grid;
+    float: left;
+    grid-gap: 30px;
+    margin: 100px;
+}
+.grid{
+    display: flex;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+.grid img{
+    height: 75px;
+
+}
