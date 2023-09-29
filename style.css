@@ -1,9 +1,9 @@
 *{   
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Istok Web', sans-serif;
      box-sizing: border-box;
 }
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,6 +13,9 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+.header{
+    background-color: #FFFBF0;
 }
 .logo2{
     height:30px;
@@ -39,6 +42,13 @@
 .navbar a:hover::before{
     width: 100%;
 }
+.aria{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    margin: 15px;
+    height: 400px;
+    width: 340px;
+}
 .panda-slide .carousel-item{
     background-color:#FFFBF0;
     border-radius: 0.50em;
@@ -50,9 +60,10 @@
     font-weight: 800;
     height: 45px;
     width: 120px;
-   }
+}
 .card-title{
-    font-weight: 1000;
+    font-weight: 700;
+    color: #363958;
 }
 .card-text{
     font-size: 12px;
@@ -61,11 +72,13 @@
 .top-text{
     font-weight: 1000;
     margin-left: 50px;
+    color: #363958;
 }
 .card-img-top{
     height: 390px;
 }
 .price{
+    position: relative;
     color: orange;
     font-weight: 700;
 }
@@ -73,5 +86,48 @@
     border: 0;
 }
 .card-footer{
-    border: 0;   
+    border: 0;
+}
+.card-img-top{
+    align-items: center;
+    height: 380px;
+    
+}
+.button{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #A4BC46;
+    color: white;
+    border: 0;
+    border-radius: 7px; 
+    height: 50px;
+    width: 125px;
+}
+.border-size{
+    margin: 35px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 110px;
+    width: 500px;
+}
+.icon{
+    position: center;
+    float: left;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+.border-size .icon{
+    padding: 15px;
+}
+.font-color{
+    color: #363958;
+    font-weight: 800;
+    font-size: 25px;
+}
+.col-md-4{
+    margin: 100px;
+}
+.footer{
+    text-align: center;
 }
